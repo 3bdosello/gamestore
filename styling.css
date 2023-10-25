@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    font-family: 'Young Serif', serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(back.webp);
+    background-repeat: repeat-y;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: white;
+}
+
+.name {
+    width: 280px;
+    font-size: 45px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.icon {
+    width: 250px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+
+}
+
+.nav a:hover {
+    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+    display: flex;
+
+
+
+}
+
+li {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
+
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 4px black solid;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.qqqq {
+    color: #000000;
+}
+
+#submit {
+    background-color: #948787;
+    color: #030303;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    width: 130px;
+    position: relative;
+    float: right;
+
+
+}
+
+#submit:hover {
+    background-color: #333;
+    color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-6px);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 10px;
+
+}
+.social img{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+.social a{
+        text-decoration: none;
+        color: rgb(173, 68, 68);
+        background-color: white;
+        margin: 15px;
+        display: flex;
+        flex-direction: row;
+        padding: 40px;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+        
+}
+.social a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(172, 40, 229);
+    color: rgb(255, 255, 255);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+.face{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+#map{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 70px;
+    align-items: center;
+}
+.contat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: aqua;
+    width: 50vh;
+    border-radius:35px;
+    margin: 20px;
+    
+}
+.contat a{
+    font-size: 50px;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+@media (max-width:600px) {
+    body {
+        font-size: 25px;
+    }
+
+    a {
+        padding: 10px;
+        margin-top: 20px;
+        display: flex;
+        margin: 0;
+
+
+    }
+
+    ul {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .icon {
+        width: 150px;
+
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+
+}
